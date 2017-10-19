@@ -26,6 +26,6 @@ export const debug = {
   debugOrdering
 }
 
-export {default as graphlib} from 'ciena-graphlib'
+export {default as graphlib} from 'graphlib'
 export {default as layout} from './layout'
 export {default as util} from './util'

@@ -1,6 +1,6 @@
 import _ from 'lodash'
 import {buildLayerMatrix} from './util'
-import {Graph} from 'ciena-graphlib'
+import {Graph} from 'graphlib'
 
 export function debugOrdering (g) {
   var layerMatrix = buildLayerMatrix(g)

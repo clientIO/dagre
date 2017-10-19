@@ -10,7 +10,7 @@ import {
   undo as normalizeUndo
 } from './normalize'
 
-import rank from './rank'
+import rank from './rank/index'
 
 import {
   addDummyNode,
@@ -37,9 +37,9 @@ import {
   undo as coordinateSystemUndo
 } from './coordinate-system'
 
-import order from './order'
-import position from './position'
-import {Graph} from 'ciena-graphlib'
+import order from './order/index'
+import position from './position/index'
+import {Graph} from 'graphlib'
 
 function runLayout (g, time) {
   time('    makeSpaceForEdgeLabels', function () { makeSpaceForEdgeLabels(g) })

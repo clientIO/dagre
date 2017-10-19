@@ -1,5 +1,5 @@
 import _ from 'lodash'
-import {Graph} from 'ciena-graphlib'
+import {Graph} from 'graphlib'
 import {buildLayerMatrix} from '../util'
 
 /*

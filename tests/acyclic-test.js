@@ -1,5 +1,5 @@
 const expect = require('chai').expect
-const graphlib = require('ciena-graphlib')
+const graphlib = require('graphlib')
 const alg = graphlib.alg
 const Graph = graphlib.Graph
 const findCycles = alg.findCycles

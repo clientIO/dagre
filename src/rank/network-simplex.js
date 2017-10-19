@@ -1,5 +1,5 @@
 import _ from 'lodash'
-import {alg} from 'ciena-graphlib'
+import {alg} from 'graphlib'
 const {preorder, postorder} = alg
 
 import feasibleTree from './feasible-tree'

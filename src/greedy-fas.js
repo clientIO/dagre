@@ -1,5 +1,5 @@
 import _ from 'lodash'
-import {Graph} from 'ciena-graphlib'
+import {Graph} from 'graphlib'
 import List from './data/list'
 
 var DEFAULT_WEIGHT_FN = _.constant(1)
