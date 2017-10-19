@@ -1,5 +1,5 @@
 {
-  "name": "ciena-dagre",
+  "name": "dagre",
   "version": "1.0.10",
   "description": "Graph layout for JavaScript",
   "scripts": {
